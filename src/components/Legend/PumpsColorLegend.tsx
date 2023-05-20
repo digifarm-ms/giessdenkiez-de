@@ -17,21 +17,8 @@ export const PumpsColorLegend: FC = () => {
   return (
     <FlexRow>
       <FlexRowDots>
-        <PumpsDot color={workingColor.hex} size={13} />
-        <PumpLabel>funktionsfähig</PumpLabel>
-      </FlexRowDots>
-      <FlexRowDots>
-        <PumpsDot color={brokenColor.hex} size={13} />
-        <PumpLabel>defekt</PumpLabel>
-      </FlexRowDots>
-
-      <FlexRowDots>
-        <PumpsDot color={lockedColor.hex} size={13} />
-        <PumpLabel>verriegelt</PumpLabel>
-      </FlexRowDots>
-      <FlexRowDots>
         <PumpsDot color={defaultColor.hex} size={13} />
-        <PumpLabel>unbekannt</PumpLabel>
+        <PumpLabel>Wassercontainer</PumpLabel>
       </FlexRowDots>
     </FlexRow>
   );
