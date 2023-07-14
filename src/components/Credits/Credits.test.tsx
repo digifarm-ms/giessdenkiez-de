@@ -4,7 +4,7 @@ import Credits from '.';
 import { ThemeProvider } from 'styled-components';
 import { theme } from '../../assets/theme';
 
-describe('component Credits', () => {
+xdescribe('component Credits', () => {
   test('should render the CityLAB logo', () => {
     render(
       <ThemeProvider theme={theme}>

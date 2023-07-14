@@ -6,7 +6,6 @@ import OpenSourceNote from '../../OpenSource';
 import content from '../../../assets/content';
 import ExpandablePanel from '../../ExpandablePanel';
 import SmallParagraph from '../../SmallParagraph';
-import { SlackButton } from '../../SlackButton';
 
 const SidebarAbout: FC = () => {
   const { sidebar } = content;
@@ -17,12 +16,6 @@ const SidebarAbout: FC = () => {
       {about.map((item, idx) => (
         <ExpandablePanel isExpanded title={item.title} key={item.title}>
           <SmallParagraph>{item.description}</SmallParagraph>
-          {idx === 0 && (
-            <>
-              <br />
-              <SlackButton />
-            </>
-          )}
         </ExpandablePanel>
       ))}
 
