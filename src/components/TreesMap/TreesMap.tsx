@@ -590,28 +590,13 @@ export const TreesMap = forwardRef<MapRef, TreesMapPropsType>(function TreesMap(
         <MapTooltip
           x={pumpInfo.x}
           y={pumpInfo.y}
-          title='Öffentliche Straßenpumpe'
+          title='Wasserstandort'
           subtitle={pumpInfo.address}
           onClickOutside={() => {
             setClickedPump(null);
           }}
           infos={{
             Status: pumpInfo.status,
-            'Letzter Check': pumpInfo.check_date,
-            Pumpenstil: pumpInfo.style,
-            ...(pumpInfo.id
-              ? {
-                  '': (
-                    <StyledTextLink
-                      href={getOSMEditorURL(pumpInfo.id)}
-                      target='_blank'
-                      rel='noreferrer nofollow'
-                    >
-                      Status in OpenStreetMap aktualisieren
-                    </StyledTextLink>
-                  ),
-                }
-              : {}),
           }}
         />
       )}

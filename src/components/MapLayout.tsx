@@ -12,44 +12,39 @@ export const MapLayout: FC<{ treeId?: string | null }> = ({
   return (
     <>
       <Head>
-        <title>Gieß den Kiez | CityLAB Berlin</title>
+        <title>Münster schenkt aus</title>
         <meta
           name='viewport'
           content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'
         />
         <link rel='icon' type='image/x-icon' href='/images/favicon.ico' />
-        <meta name='title' content='Gieß den Kiez | CityLAB Berlin' />
+        <meta name='title' content='Münster schenkt aus' />
         <meta
           name='description'
-          content='Die Berliner Stadtbäume leiden unter Trockenheit und Du kannst ihnen helfen!'
+          content='Die Münsteraner Straßenbäume leiden unter Trockenheit und Du kannst ihnen helfen!'
         />
         <meta property='og:url' content='<%= domain %>/' />
         <meta property='og:type' content='website' />
-        <meta property='og:title' content='Gieß den Kiez | CityLAB Berlin' />
+        <meta property='og:title' content='Münster schenkt aus' />
         <meta
           property='og:description'
-          content='Die Berliner Stadtbäume leiden unter Trockenheit und Du kannst ihnen helfen!'
+          content='Die Münsteraner Straßenbäume leiden unter Trockenheit und Du kannst ihnen helfen!'
         />
         <meta
           property='og:image'
-          content='<%= domain %>/images/social_media.jpg'
+          content='<%= domain %>/images/muenster-schenkt-aus.png'
         />
-        <meta
-          property='og:site_name'
-          content='Gieß den Kiez | CityLAB Berlin'
-        />
+        <meta property='og:site_name' content='Münster schenkt aus' />
         <meta name='twitter:card' content='summary' />
-        <meta name='twitter:site' content='@citylabberlin' />
-        <meta name='twitter:creator' content='@citylabberlin' />
         <meta name='twitter:url' content='<%= domain %>/' />
-        <meta name='twitter:title' content='Gieß den Kiez | CityLAB Berlin' />
+        <meta name='twitter:title' content='Münster schenkt aus' />
         <meta
           name='twitter:description'
-          content='Die Berliner Stadtbäume leiden unter Trockenheit und Du kannst ihnen helfen!'
+          content='Die Münsteraner Straßenbäume leiden unter Trockenheit und Du kannst ihnen helfen!'
         />
         <meta
           name='twitter:image'
-          content='<%= domain %>/images/social_media.jpg'
+          content='<%= domain %>/images/muenster-schenkt-aus.png'
         />
       </Head>
       <App treeId={treeId}>

@@ -1,10 +1,9 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 import { isMobile } from 'react-device-detect';
+import Image from 'next/image';
 
 import OverlayTitle from '../OverlayTitle/';
-import Icon from '../../Icons';
-import OverlayBeta from '../OverlayBeta/';
 import OverlayDescription from '../OverlayDescription/';
 import ButtonRound from '../../ButtonRound';
 import Login from '../../../components/Login/';
@@ -12,7 +11,6 @@ import Login from '../../../components/Login/';
 import content from '../../../assets/content';
 import { useActions } from '../../../state/unistore-hooks';
 import OverlayClose from '../OverlayClose';
-import { SlackButton } from '../../SlackButton';
 
 const { whatsNew } = content;
 
@@ -65,6 +63,10 @@ const StyledButtonWrapper = styled.div`
   }
 `;
 
+const StyledLogoWrapper = styled.div`
+  margin: 0 40px 20px 40px;
+`;
+
 const OverlayTop: FC = () => {
   const { closeOverlay } = useActions();
   const { intro } = content;
@@ -73,11 +75,14 @@ const OverlayTop: FC = () => {
 
   return (
     <StyledTop>
-      <Wrapper>
-        <OverlayTitle size='xxl' title={title} />
-        <Icon iconType='trees' />
-        <OverlayBeta />
-      </Wrapper>
+      <StyledLogoWrapper>
+        <Image
+          src='/images/muenster-schenkt-aus.png'
+          width={140}
+          height={140}
+          alt={title}
+        />
+      </StyledLogoWrapper>
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}
       {/* the beow is here for local testing */}
@@ -97,7 +102,6 @@ const OverlayTop: FC = () => {
           </ButtonRound>
           <Login width='fit-content' noLogout={true} />
         </StyledButtonWrapper>
-        <SlackButton />
       </StyledWrapper>
       {whatsNew && (
         <StyledNewsSection aria-label='News und Updates'>

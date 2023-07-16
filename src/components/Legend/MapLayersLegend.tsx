@@ -103,7 +103,7 @@ const MapLayerLegend: FC = () => {
         <FlexColumnLast>
           <StyledCardDescription onClick={() => setLegendExpanded(false)}>
             {visibleMapLayer === 'pumps'
-              ? 'Öffentliche Pumpen'
+              ? 'Wasserstandorte'
               : 'Niederschlag'}
           </StyledCardDescription>
           {visibleMapLayer !== 'pumps' && (
@@ -141,7 +141,7 @@ const MapLayerLegend: FC = () => {
             }}
           >
             <LegendRadio checked={visibleMapLayer === 'pumps'} />
-            <StyledItemLabel>Öffentl. Pumpen</StyledItemLabel>
+            <StyledItemLabel>Wasserstandorte</StyledItemLabel>
           </FlexRowFit>
           <FlexRowFit
             isActive={visibleMapLayer === 'rain'}
