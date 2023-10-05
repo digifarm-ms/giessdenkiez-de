@@ -68,7 +68,7 @@ const content: Content = {
   intro: {
     title: 'Münster schenkt aus',
     subline:
-      'Die Münsteraner Straßenbäume leiden unter Trockenheit <br class="large" /> und Du kannst ihnen helfen!',
+      'Die münsterschen Straßenbäume leiden unter Trockenheit <br class="large" /> und Du kannst ihnen helfen!',
     disclaimer:
       'Hinweis: Das Laden von vielen tausend Bäumen ist ressourcenintensiv und funktioniert aktuell nicht auf allen Mobilgeräten einwandfrei. Wir empfehlen die Nutzung via Desktop-Computer',
     description: [
@@ -90,9 +90,9 @@ const content: Content = {
   },
   loading: {
     snippets: [
-      'Wir laden gerade über 2.000 Bäume aus dem Münsteraner Baumbestand.',
+      'Wir laden gerade über 2.000 Bäume aus dem münsterschen Baumbestand.',
       'Wenn du diese Seite über das Mobilfunknetz aufrufst, kann es etwas dauern.',
-      'Sammle Informationen aller Bäume aus Berlins Baumkataster.',
+      'Sammle Informationen aller Bäume aus Münsters Baumkataster.',
       'Schon gewusst? Ein Stadtbaum benötigt etwa 70l Wasser in der Woche.',
     ],
   },
@@ -101,7 +101,7 @@ const content: Content = {
       {
         title: 'Über das Projekt',
         description:
-          'Die Folgen des Klimawandels, insbesondere die trockenen und heißen Sommer, belasten das Münsteraner Ökosystem. Unsere Stadtbäume vertrocknen und tragen langfristige Schäden davon: In den letzten Jahren mussten immer mehr Bäume gefällt werden und ihre Lebensdauer sinkt. Inzwischen wird die Bevölkerung regelmäßig zur Unterstützung aufgerufen, allerdings weitgehend unkoordiniert. Dies möchten wir ändern und mit diesem Projekt eine koordinierte Beteiligung von Bürgerinnen und Bürgern bei der Bewässerung städtischen Grüns ermöglichen.',
+          'Die Folgen des Klimawandels, insbesondere die trockenen und heißen Sommer, belasten das münstersche Ökosystem. Unsere Stadtbäume vertrocknen und tragen langfristige Schäden davon: In den letzten Jahren mussten immer mehr Bäume gefällt werden und ihre Lebensdauer sinkt. Inzwischen wird die Bevölkerung regelmäßig zur Unterstützung aufgerufen, allerdings weitgehend unkoordiniert. Dies möchten wir ändern und mit diesem Projekt eine koordinierte Beteiligung von Bürgerinnen und Bürgern bei der Bewässerung städtischen Grüns ermöglichen.',
       },
       {
         title: 'Über uns',
@@ -114,7 +114,7 @@ const content: Content = {
       {
         title: 'Datenquellen',
         description:
-          'Die Karte zeigt die Münsteraner Straßenbäume. Zusätzlich wird abgebildet, wie viel Niederschlag in den letzten 30 Tagen bei jedem Baum gefallen ist und ob diese in dieser Zeit bereits gegossen wurden.',
+          'Die Karte zeigt die münsterschen Straßenbäume. Zusätzlich wird abgebildet, wie viel Niederschlag in den letzten 30 Tagen bei jedem Baum gefallen ist und ob diese in dieser Zeit bereits gegossen wurden.',
       },
     ],
     waterNeeds: [
