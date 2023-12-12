@@ -55,7 +55,7 @@ const content: Content = {
   faq: {
     title: 'Fragen & Antworten',
     description:
-      '<a href="https://github.com/digifarm-ms/giessdenkiez-de/wiki">In unserem Wiki</a> findest Du viele Tipps und Infos zum Gießen, zu Bäumen und zum Kontakt mit Anderen, die ebenfalls gießen.',
+      '<a href="https://www.stadt-muenster.de/farbe/mitmachen/muenster-schenkt-aus.html" target="_blank" rel="noreferrer">Auf der Infoseite des Grünflächenamtes</a> findest Du viele Tipps und Infos zum Gießen, zu Bäumen und zum Kontakt mit anderen, die ebenfalls gießen.',
     qa: [],
   },
   imprintAndPrivacy: {
@@ -68,12 +68,12 @@ const content: Content = {
   intro: {
     title: 'Münster schenkt aus',
     subline:
-      'Die Münsteraner Straßenbäume leiden unter Trockenheit <br class="large" /> und Du kannst ihnen helfen!',
+      'Die münsterschen Straßenbäume leiden unter Trockenheit <br class="large" /> und Du kannst ihnen helfen!',
     disclaimer:
       'Hinweis: Das Laden von vielen tausend Bäumen ist ressourcenintensiv und funktioniert aktuell nicht auf allen Mobilgeräten einwandfrei. Wir empfehlen die Nutzung via Desktop-Computer',
     description: [
       'Willkommen in der Gieß-App von Münster schenkt aus. Auf dieser Plattform kannst Du Dich über Bäume in Deiner Nachbarschaft und ihren Wasserbedarf informieren. Du kannst für Bäume eine Gießpatenschaft übernehmen und/oder auch dokumentieren, wieviel Wasser Du ihnen gegeben hast.',
-      '<a href="https://www.stadt-muenster.de/farbe/mitmachen/muenster-schenkt-aus.html">Auf der Infoseite des Grünflächenamtes</a> kannst Du Dich über das richtige Gießen von Bäumen informieren. Wenn Du die Gieß-App regelmäßig nutzen möchtest, solltest Du ein Konto erstellen. Die Karte kannst Du aber auch ohne Konto erkunden.',
+      '<a href="https://www.stadt-muenster.de/farbe/mitmachen/muenster-schenkt-aus.html" target="_blank" rel="noreferrer">Auf der Infoseite des Grünflächenamtes</a> kannst Du Dich über das richtige Gießen von Bäumen informieren. Wenn Du die Gieß-App regelmäßig nutzen möchtest, empfehlen wir dir ein Konto zu erstellen. Die Karte kannst Du aber auch ohne Konto erkunden.',
     ],
   },
   //pls do not delete the following eventNote section to facilitate process of enabling/disabling future news & notes
@@ -85,14 +85,14 @@ const content: Content = {
     title: 'Diese Website ist noch in Arbeit!',
     description: [
       'Das ist eine Vorabversion von "Münster schenkt aus", einer Website über die in Zukunft das Gießen von Stadtbäumen durch Freiwillige koordiniert werden soll.',
-      'Diese Website basiert auf der Open-Source-Anwendung <a href="https://citylab-berlin.org/de/projects/giess-den-kiez/">Gieß den Kiez</a>, die vom <a href="https://citylab-berlin.org/">CityLAB</a> in Berlin entwickelt und dort seit 2021 verwendet wird',
+      'Diese Website basiert auf der Open-Source-Anwendung <a href="https://citylab-berlin.org/de/projects/giess-den-kiez/" target="_blank" rel="noreferrer">Gieß den Kiez</a>, die vom <a href="https://citylab-berlin.org/" target="_blank" rel="noreferrer">CityLAB</a> in Berlin entwickelt und dort seit 2021 verwendet wird',
     ],
   },
   loading: {
     snippets: [
-      'Wir laden gerade über 2.000 Bäume aus dem Münsteraner Baumbestand.',
+      'Wir laden gerade über 2.000 Bäume aus dem münsterschen Baumbestand.',
       'Wenn du diese Seite über das Mobilfunknetz aufrufst, kann es etwas dauern.',
-      'Sammle Informationen aller Bäume aus Berlins Baumkataster.',
+      'Sammle Informationen aller Bäume aus Münsters Baumkataster.',
       'Schon gewusst? Ein Stadtbaum benötigt etwa 70l Wasser in der Woche.',
     ],
   },
@@ -101,20 +101,20 @@ const content: Content = {
       {
         title: 'Über das Projekt',
         description:
-          'Die Folgen des Klimawandels, insbesondere die trockenen und heißen Sommer, belasten das Münsteraner Ökosystem. Unsere Stadtbäume vertrocknen und tragen langfristige Schäden davon: In den letzten Jahren mussten immer mehr Bäume gefällt werden und ihre Lebensdauer sinkt. Inzwischen wird die Bevölkerung regelmäßig zur Unterstützung aufgerufen, allerdings weitgehend unkoordiniert. Dies möchten wir ändern und mit diesem Projekt eine koordinierte Beteiligung von Bürgerinnen und Bürgern bei der Bewässerung städtischen Grüns ermöglichen.',
+          'Die Folgen des Klimawandels, insbesondere die trockenen und heißen Sommer, belasten das münstersche Ökosystem. Unsere Stadtbäume vertrocknen und tragen langfristige Schäden davon: In den letzten Jahren mussten immer mehr Bäume gefällt werden und die durchschnittliche Lebensdauer der Bäume sinkt. Inzwischen wird die Bevölkerung regelmäßig zur Unterstützung aufgerufen, allerdings weitgehend unkoordiniert. Dies möchten wir ändern und mit diesem Projekt eine koordinierte Beteiligung der Menschen in Münster bei der Bewässerung städtischen Grüns ermöglichen.',
       },
       {
         title: 'Über uns',
-        description: `„Gieß den Kiez” ist ein Projekt des <a target="blank" href="https://www.citylab-berlin.org/">CityLAB Berlin</a> / Technologiestiftung Berlin. Diese App wurde dort ohne kommerzielle Interessen als Open-Source-Software entwickelt, damit sie nicht nur in Berlin, sondern auch in anderen Kommunen wie Münster genutzt und weiterentwickelt werden kann.<br/><br/>
-        Die Adaption und Installation von „Gieß den Kiez“ für Münster wurde umgesetzt im Rahmen des Projektes <a href="https://www.stadt-muenster.de/digifarm/startseite">DIGIFARM.MS</a>.
-        DIGIFARM.MS ist eine Maßnahme der Bundesförderung „<a href="https://smartcity.ms/modellprojekte-smart-cities/">Modellprojekte Smart Cities</a>“, gefördert durch: 
+        description: `„Gieß den Kiez” ist ein Projekt des <a target="blank" href="https://www.citylab-berlin.org/" target="_blank" rel="noreferrer">CityLAB Berlin</a> / Technologiestiftung Berlin. Diese App wurde dort ohne kommerzielle Interessen als Open-Source-Software entwickelt, damit sie nicht nur in Berlin, sondern auch in anderen Kommunen wie Münster genutzt und weiterentwickelt werden kann.<br/><br/>
+        Die Adaption und Installation von „Gieß den Kiez“ für Münster wurde umgesetzt im Rahmen des Projektes <a href="https://www.stadt-muenster.de/digifarm/startseite" target="_blank" rel="noreferrer">DIGIFARM.MS</a>.
+        DIGIFARM.MS ist eine Maßnahme der Bundesförderung „<a href="https://smartcity.ms/modellprojekte-smart-cities/" target="_blank" rel="noreferrer">Modellprojekte Smart Cities</a>“, gefördert durch: 
         <img src="/images/bundesministerium-logo.png" alt="Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen" width="50%" /><img src="/images/kfw-logo.png" alt="KfW" width="45%" />
         `,
       },
       {
         title: 'Datenquellen',
         description:
-          'Die Karte zeigt die Münsteraner Straßenbäume. Zusätzlich wird abgebildet, wie viel Niederschlag in den letzten 30 Tagen bei jedem Baum gefallen ist und ob diese in dieser Zeit bereits gegossen wurden.',
+          'Die Karte zeigt die münsterschen Straßenbäume. Zusätzlich wird abgebildet, wie viel Niederschlag in den letzten 30 Tagen an den Baumstandorten gefallen ist und welche Bäume in diesem Zeitraum bereits gegossen wurden. Weiterhin können die Standorte der öffentlichen Wassercontainer eingesehen werden.',
       },
     ],
     waterNeeds: [
@@ -192,13 +192,13 @@ const content: Content = {
         icon: 'info',
         title: 'Mit anderen austauschen',
         description:
-          'Wir werden Dich mit unserem Newsletter, der an die E-Mail-Adresse Deines Benutzerkontos hier gesendet wird, über aktuelle Entwicklungen und Aktionen auf dem Laufenden halten.',
+          'Wir werden Dich mit unserem Newsletter, der an die E-Mail-Adresse Deines Benutzerkontos gesendet wird, über aktuelle Entwicklungen und Aktionen auf dem Laufenden halten.',
       },
       {
         icon: 'info',
         title: 'Noch mehr Mitmachen',
         description:
-          'Du kannst aber auch im Projektteam mitarbeiten, Wasserspender werden, Andere fürs Gießen begeistern, Links zu Münster schenkt aus viel teilen oder in der Presse über Münster schenkt aus berichten. <a href="https://www.stadt-muenster.de/farbe/mitmachen/muenster-schenkt-aus">Auf unserer Webseite findest weitere Infos dazu.</a> Und natürlich freuen wir uns immer über Posts/Likes bei Instagram oder Facebook.',
+          'Du kannst aber auch im Projektteam mitarbeiten, Wasserspender werden, andere fürs Gießen begeistern, Links zu Münster schenkt aus teilen oder in der Presse über Münster schenkt aus berichten. <a href="https://www.stadt-muenster.de/farbe/mitmachen/muenster-schenkt-aus" target="_blank" rel="noreferrer">Auf unserer Webseite findest weitere Infos dazu.</a> Und natürlich freuen wir uns immer über Posts/Likes bei Instagram oder Facebook.',
       },
     ],
   },

@@ -78,7 +78,7 @@ const SidebarSearch: FC = () => {
       </ExpandablePanel>
       <ExpandablePanel title='Wasserbedarf' isExpanded>
         <SmallParagraph>
-          Finde heraus wie sehr Bäume Wasser benötigen.
+          Finde heraus wieviel Wasser die Bäume benötigen.
         </SmallParagraph>
         <FilterLinksContainer>
           <FilterLink
@@ -106,7 +106,7 @@ const SidebarSearch: FC = () => {
       </ExpandablePanel>
       <ExpandablePanel title='Baumalter' isExpanded>
         <SmallParagraph>
-          Erkunde die Geschichte von Berlins Baumlandschaft
+          Erkunde die Geschichte von Münsters Baumlandschaft
         </SmallParagraph>
         <br />
         <SidebarSearchAge />
